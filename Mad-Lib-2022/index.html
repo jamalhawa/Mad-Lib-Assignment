@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html id="html">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <!-- Insert your script tag below here -->
+  </head>
+  <body>
+    <h1>Mad Lib</h1>
+    <hr />
+
+    <div id="instructions">
+      <h2>Mad Lib Instructions</h2>
+      <p>
+        Fill in all of the input boxes, then click the
+        <span class="madlib">"Mad Lib"</span> button.
+      </p>
+    </div>
+
+    <ul>
+      <li>Plural Noun: <input type="text" id="pluralNoun" /></li>
+      <li>Adjective: <input type="text" id="adjective" /></li>
+      <li>Present Tense Verb: <input type="text" id="ptVerb" /></li>
+      <li>Noun: <input type="text" id="noun1" /></li>
+      <li>Another Adjective: <input type="text" id="adjective2" /></li>
+      <li>Another Noun: <input type="text" id="noun2" /></li>
+    </ul>
+
+    <p>
+      <button id="madlibButton1">Mad Lib 1</button
+      ><button id="madlibButton2">Mad Lib 2</button>
+      <button id="reset">RESET</button>
+    </p>
+
+    <hr />
+
+    <h2>Mad Lib Results</h2>
+
+    <p class="yellowBorder" id="paragraph">
+      There are too many _______ on this _______ airplane!, I screamed. Somebody
+      has to _______ on the _______ to solve this problem! Oh no, the _______
+      _______ is coming!
+    </p>
+
+    <p id="finishedp"><button id="finished">Finished?</button></p>
+    <p id="rate"></p>
+
+    <script src="script.js"></script>
+  </body>
+</html>
